@@ -1,5 +1,5 @@
 {
-    "name": "ferdiunal/nova-shield",
+    "name": "ecoughtry/nova-shield",
     "description": "A Laravel Nova package to manage permissions and roles.",
     "authors": [
         {
@@ -48,13 +48,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Ferdiunal\\NovaShield\\": "src/"
+            "ecoughtry\\NovaShield\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Ferdiunal\\NovaShield\\ToolServiceProvider"
+                "ecoughtry\\NovaShield\\ToolServiceProvider"
             ]
         }
     },

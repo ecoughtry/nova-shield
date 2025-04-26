@@ -1,8 +1,8 @@
 <?php
 
-namespace Ferdiunal\NovaShield\Lib;
+namespace ecoughtry\NovaShield\Lib;
 
-use Ferdiunal\NovaShield\Contracts\SyncPermissionHook as SyncPermissionHookContract;
+use ecoughtry\NovaShield\Contracts\SyncPermissionHook as SyncPermissionHookContract;
 use Illuminate\Support\LazyCollection;
 use Spatie\Permission\Contracts\Role;
 use Spatie\Permission\Models\Permission;

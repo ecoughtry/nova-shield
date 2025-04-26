@@ -1,6 +1,6 @@
 <?php
 
-namespace Ferdiunal\NovaShield;
+namespace ecoughtry\NovaShield;
 
 use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Auth\Access\Response;

@@ -1,8 +1,8 @@
 <?php
 
-namespace Ferdiunal\NovaShield\Http\Middleware;
+namespace ecoughtry\NovaShield\Http\Middleware;
 
-use Ferdiunal\NovaShield\NovaShield;
+use ecoughtry\NovaShield\NovaShield;
 use Laravel\Nova\Nova;
 
 class Authorize

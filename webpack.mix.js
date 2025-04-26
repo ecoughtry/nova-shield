@@ -9,4 +9,4 @@ mix.setPublicPath("dist")
     .postCss("resources/css/tool.css", "css", [
         require("tailwindcss")("tailwind.config.js"),
     ])
-    .nova("ferdiunal/nova-shield");
+    .nova("ecoughtry/nova-shield");

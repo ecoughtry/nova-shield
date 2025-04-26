@@ -1,8 +1,8 @@
 <?php
 
-namespace Ferdiunal\NovaShield\Http\Middleware;
+namespace ecoughtry\NovaShield\Http\Middleware;
 
-use Ferdiunal\NovaShield\Contracts\HasShieldTeam;
+use ecoughtry\NovaShield\Contracts\HasShieldTeam;
 
 class TeamMiddleware
 {

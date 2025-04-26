@@ -1,8 +1,8 @@
 <?php
 
-namespace Ferdiunal\NovaShield\Commands;
+namespace ecoughtry\NovaShield\Commands;
 
-use Ferdiunal\NovaShield\Lib\SuperAdmin;
+use ecoughtry\NovaShield\Lib\SuperAdmin;
 use Illuminate\Database\Console\Migrations\BaseCommand;
 
 use function Laravel\Prompts\spin;

@@ -1,11 +1,11 @@
 <?php
 
-namespace Ferdiunal\NovaShield;
+namespace ecoughtry\NovaShield;
 
-use Ferdiunal\NovaShield\Http\Middleware\Authorize;
-use Ferdiunal\NovaShield\Http\Nova\ShieldResource;
-use Ferdiunal\NovaShield\Lib\NovaResources;
-use Ferdiunal\NovaShield\Lib\SuperAdmin;
+use ecoughtry\NovaShield\Http\Middleware\Authorize;
+use ecoughtry\NovaShield\Http\Nova\ShieldResource;
+use ecoughtry\NovaShield\Lib\NovaResources;
+use ecoughtry\NovaShield\Lib\SuperAdmin;
 use Illuminate\Support\Facades\Context;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Route;

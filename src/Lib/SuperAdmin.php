@@ -1,6 +1,6 @@
 <?php
 
-namespace Ferdiunal\NovaShield\Lib;
+namespace ecoughtry\NovaShield\Lib;
 
 use App\Models\Permission;
 use Exception;
@@ -127,7 +127,7 @@ class SuperAdmin
         $role = $this->makeSuperAdminRole();
 
         /**
-         * @var \Ferdiunal\NovaShield\Contracts\SyncPermissionHook $hook
+         * @var \ecoughtry\NovaShield\Contracts\SyncPermissionHook $hook
          */
         $hook = config('nova-shield.hooks.permission', DefaultPermissionHook::class);
 

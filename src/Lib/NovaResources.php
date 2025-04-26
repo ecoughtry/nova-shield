@@ -1,6 +1,6 @@
 <?php
 
-namespace Ferdiunal\NovaShield\Lib;
+namespace ecoughtry\NovaShield\Lib;
 
 use App\Nova\Resource;
 use Illuminate\Support\Facades\File;
@@ -64,7 +64,7 @@ final class NovaResources
      */
     public function hasSettingResource(string $path): bool
     {
-        return class_exists($path) && is_subclass_of($path, \Ferdiunal\NovaSettings\SettingResource::class);
+        return class_exists($path) && is_subclass_of($path, \ecoughtry\NovaSettings\SettingResource::class);
     }
 
     /**

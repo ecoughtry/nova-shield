@@ -7,7 +7,7 @@ return [
      */
     'resources' => [
         app_path('Nova'),
-        \Ferdiunal\NovaShield\Http\Nova\ShieldResource::class,
+        \ecoughtry\NovaShield\Http\Nova\ShieldResource::class,
         // Custom resource: For custom menu items
         // [
         //     "name" => "Custom Menu Item",
@@ -62,6 +62,6 @@ return [
          * If you are using custom ID types like UUID or ULID, you need to include them in the upsert operation.
          * Therefore, you can write and use a query that suits your project needs.
          */
-        'permission' => \Ferdiunal\NovaShield\Lib\DefaultPermissionHook::class,
+        'permission' => \ecoughtry\NovaShield\Lib\DefaultPermissionHook::class,
     ],
 ];

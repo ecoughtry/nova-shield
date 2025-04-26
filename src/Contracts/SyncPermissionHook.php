@@ -1,6 +1,6 @@
 <?php
 
-namespace Ferdiunal\NovaShield\Contracts;
+namespace ecoughtry\NovaShield\Contracts;
 
 use Spatie\Permission\Contracts\Role;
 

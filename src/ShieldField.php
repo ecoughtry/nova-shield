@@ -1,8 +1,8 @@
 <?php
 
-namespace Ferdiunal\NovaShield;
+namespace ecoughtry\NovaShield;
 
-use Ferdiunal\NovaShield\Lib\NovaResources;
+use ecoughtry\NovaShield\Lib\NovaResources;
 use Laravel\Nova\Fields\Text as TextFeild;
 
 class ShieldField extends TextFeild

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ferdiunal\NovaShield\Lib;
+namespace ecoughtry\NovaShield\Lib;
 
 use Laravel\Nova\Fields\Field;
 

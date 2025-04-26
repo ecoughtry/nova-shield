@@ -1,6 +1,6 @@
 <?php
 
-namespace Ferdiunal\NovaShield;
+namespace ecoughtry\NovaShield;
 
 use Laravel\Nova\Panel;
 

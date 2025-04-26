@@ -7,7 +7,7 @@
 ## Installation
 
 ```bash
-composer require ferdiunal/nova-shield
+composer require ecoughtry/nova-shield
 ```
 
 ## Configuration
@@ -35,7 +35,7 @@ return [
      */
     'resources' => [
         app_path('Nova'),
-        \Ferdiunal\NovaShield\Http\Nova\ShieldResource::class,
+        \ecoughtry\NovaShield\Http\Nova\ShieldResource::class,
         // Custom resource: For custom menu items
         // [
         //     "name" => "Custom Menu Item",
@@ -90,7 +90,7 @@ return [
          * If you are using custom ID types like UUID or ULID, you need to include them in the upsert operation.
          * Therefore, you can write and use a query that suits your project needs.
          */
-        'permission' => \Ferdiunal\NovaShield\Lib\DefaultPermissionHook::class,
+        'permission' => \ecoughtry\NovaShield\Lib\DefaultPermissionHook::class,
     ],
 ];
 
@@ -139,7 +139,7 @@ Then edit **`App\Nova\Resource.php`** file as follows.
 
 namespace App\Nova;
 
-use Ferdiunal\NovaShield\PermissionAuthorizable;
+use ecoughtry\NovaShield\PermissionAuthorizable;
 use Laravel\Nova\Resource as NovaResource;
 
 abstract class Resource extends NovaResource
@@ -161,7 +161,7 @@ Teams feature differs in each project, please fill in the relevant method accord
 ```php
 // App\Models\User
 
-use Ferdiunal\NovaShield\Contracts\HasShieldTeam;
+use ecoughtry\NovaShield\Contracts\HasShieldTeam;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
 class User extends Authenticatable implements HasShieldTeam
@@ -180,7 +180,7 @@ Considering that the Teams feature will differ in each project, you need to add 
 ```php
 namespace App\Lib;
 
-use Ferdiunal\NovaShield\Lib\NovaTeamHelperField;
+use ecoughtry\NovaShield\Lib\NovaTeamHelperField;
 use Laravel\Nova\Fields\Field;
 use Laravel\Nova\Fields\Select;
 
@@ -219,7 +219,7 @@ return [
 
     'middleware' => [
         ....
-        \Ferdiunal\NovaShield\Http\Middleware\TeamMiddleware::class,
+        \ecoughtry\NovaShield\Http\Middleware\TeamMiddleware::class,
     ],
 ];
 
@@ -253,7 +253,7 @@ When mapping permissions to roles, upsert is used by default. If you use custom 
 
 namespace App;
 
-use Ferdiunal\NovaShield\Contracts\SyncPermissionHook as SyncPermissionHookContract;
+use ecoughtry\NovaShield\Contracts\SyncPermissionHook as SyncPermissionHookContract;
 use Illuminate\Support\LazyCollection;
 use Illuminate\Support\Str;
 use Spatie\Permission\Contracts\Role;

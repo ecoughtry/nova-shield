@@ -1,10 +1,10 @@
 <?php
 
-namespace Ferdiunal\NovaShield\Http\Nova;
+namespace ecoughtry\NovaShield\Http\Nova;
 
 use App\Nova\Resource;
-use Ferdiunal\NovaShield\NovaShieldPanel;
-use Ferdiunal\NovaShield\ShieldField;
+use ecoughtry\NovaShield\NovaShieldPanel;
+use ecoughtry\NovaShield\ShieldField;
 use Laravel\Nova\Fields;
 use Laravel\Nova\Http\Requests\NovaRequest;
 

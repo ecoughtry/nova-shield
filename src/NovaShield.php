@@ -1,8 +1,8 @@
 <?php
 
-namespace Ferdiunal\NovaShield;
+namespace ecoughtry\NovaShield;
 
-use Ferdiunal\NovaShield\Http\Nova\ShieldResource;
+use ecoughtry\NovaShield\Http\Nova\ShieldResource;
 use Illuminate\Http\Request;
 use Laravel\Nova\Menu\MenuSection;
 use Laravel\Nova\Nova;
