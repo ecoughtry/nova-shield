@@ -42,6 +42,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "laravel/framework": "^11.0",
         "laravel/nova": "^5.0",
         "spatie/laravel-permission": "^6.9"
     },
