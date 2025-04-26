@@ -362,7 +362,7 @@ trait PermissionAuthorizable
      *
      * @throws \Illuminate\Auth\Access\AuthorizationException
      */
-    public function authorizeTo(Request $request, $ability)
+    public function authorizeTo(Request $request, string $ability): void
     {
         if (static::authorizable()) {
             $authorize = new Response(
